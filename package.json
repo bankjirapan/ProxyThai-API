@@ -1,0 +1,27 @@
+{
+  "name": "proxythai-api",
+  "version": "1.0.0",
+  "description": "thai proxy api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bankjirapan/ProxyThai-API.git"
+  },
+  "keywords": [
+    "thai",
+    "proxy",
+    "ProxyAPI"
+  ],
+  "author": "llUJOCpm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bankjirapan/ProxyThai-API/issues"
+  },
+  "homepage": "https://github.com/bankjirapan/ProxyThai-API#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
