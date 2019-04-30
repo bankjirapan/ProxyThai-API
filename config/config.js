@@ -1,3 +1,3 @@
-export default Config = {
+export default {
      port : "8083"
 }
