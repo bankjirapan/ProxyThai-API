@@ -2,6 +2,7 @@ language: javascript
 branches:
   only:
     - master
-
+install:
+  - npm install # install firebase-cli
 script:
   ./node index.js
