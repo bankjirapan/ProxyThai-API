@@ -2,7 +2,10 @@ language: javascript
 branches:
   only:
     - master
+node_js:
+  - "8.12"
 install:
   - npm install # install firebase-cli
+  - npm install -g nodemon
 script:
-  ./node index.js
+  ./nodemon --exec babel-node ./index.js
