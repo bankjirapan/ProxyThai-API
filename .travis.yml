@@ -1,0 +1,7 @@
+language: javascript
+branches:
+  only:
+    - master
+
+script:
+  ./node index.js
